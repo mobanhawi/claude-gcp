@@ -14,13 +14,13 @@ jobs:
       - uses: astral-sh/ruff-action@v3
         with:
           version: "0.4.0"
-          args: "check --fix --output-format=github ."
+          args: "check --fix --output-format=github"
         continue-on-error: true
 
       - uses: astral-sh/ruff-action@v3
         with:
           version: "0.4.0"
-          args: "format ."
+          args: "format"
 
       - name: Commit and push fixes
         if: github.event_name == 'push'
