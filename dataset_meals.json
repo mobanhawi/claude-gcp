@@ -1,0 +1,47 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "68",
+      "goal": "marathon training with morning long run",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Includes high carbohydrate meals throughout the day",
+      "Contains pre-run meal/snack timed before morning training",
+      "Includes post-run recovery meal with carbs and protein"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a marathon runner who requires high carbohydrate intake and specific timing around morning training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "92",
+      "goal": "cutting phase while maintaining muscle mass",
+      "restrictions": "lactose intolerant"
+    },
+    "solution_criteria": [
+      "Total daily calories between 1800-2200",
+      "Protein intake at least 180g",
+      "Meal plan fits within one day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a powerlifter in a cutting phase who needs high protein, moderate fat, and restricted calories while maintaining muscle mass"
+  },
+  {
+    "prompt_inputs": {
+      "height": "170",
+      "weight": "62",
+      "goal": "maintain energy for twice-daily swim training",
+      "restrictions": "nut allergy"
+    },
+    "solution_criteria": [
+      "Includes breakfast, lunch, dinner, and snacks",
+      "Provides adequate fuel before both morning and evening training sessions",
+      "Contains no nuts or nut-based ingredients"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a teenage swimmer with nut allergies who trains twice daily and needs adequate fuel for both morning and evening sessions"
+  }
+]

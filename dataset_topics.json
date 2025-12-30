@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "content": "Michel Foucault's analysis of power relations in Discipline and Punish fundamentally challenged traditional Marxist conceptions of ideology and state apparatus. Drawing from Bentham's Panopticon as a metaphor for modern surveillance, Foucault argued that disciplinary power operates through normalization rather than repression. This post-structuralist critique influenced the Birmingham School's approach to cultural studies, particularly Stuart Hall's work on hegemony and resistance. The Frankfurt School theorists, including Adorno and Horkheimer, had previously examined similar themes through their concept of the culture industry, though their neo-Marxist framework differed substantially from Foucault's genealogical method. These theoretical developments emerged during the linguistic turn in continental philosophy, which also encompassed Derrida's deconstructionism and Lyotard's postmodern critique of grand narratives."
+    },
+    "solution_criteria": [
+      "Extracts philosophical movements (e.g., post-structuralism, Marxism, postmodernism)",
+      "Extracts historical figures and theorists mentioned",
+      "Extracts cultural and philosophical theories/concepts",
+      "Returns valid JSON array of strings"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholary article into a JSON array of strings\n    ",
+    "scenario": "Testing with a passage from a humanities article that includes abstract concepts and proper nouns (philosophical movements, historical figures, cultural theories)"
+  },
+  {
+    "prompt_inputs": {
+      "content": "Ocean acidification represents a critical threat to marine ecosystems, driven by anthropogenic CO2 emissions that alter seawater chemistry. Our study employs coupled climate-ocean models to project pH changes across major oceanic regions through 2100 under various emission scenarios. Results indicate that without stringent mitigation policies aligned with the Paris Agreement targets, average surface ocean pH could decline by 0.3 units, threatening calcifying organisms including coral reefs and shellfish populations. The economic implications for fisheries-dependent communities are substantial, necessitating integrated policy frameworks that address both emission reduction strategies and adaptive management of marine resources. Our Bayesian statistical approach incorporates uncertainty quantification from ensemble model runs, providing probabilistic forecasts essential for evidence-based policymaking."
+    },
+    "solution_criteria": [
+      "Identifies interdisciplinary topics spanning environmental policy, data modeling, and oceanography",
+      "Returns output as a valid JSON array of strings"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholary article into a JSON array of strings\n    ",
+    "scenario": "Testing with a short abstract from a climate science paper containing interdisciplinary topics (environmental policy, data modeling, oceanography)"
+  },
+  {
+    "prompt_inputs": {
+      "content": "The pathogenesis of Alzheimer's disease (AD) involves complex molecular cascades centered on amyloid-beta (A\u03b2) accumulation and tau protein hyperphosphorylation. A\u03b2 peptides, generated through sequential cleavage of amyloid precursor protein (APP) by \u03b2-secretase and \u03b3-secretase enzymes, aggregate into oligomeric species that disrupt synaptic function and trigger neuroinflammatory responses mediated by activated microglia and astrocytes. Simultaneously, abnormal hyperphosphorylation of tau protein leads to neurofibrillary tangle formation, causing microtubule destabilization and axonal transport deficits. Current therapeutic strategies include acetylcholinesterase inhibitors such as donepezil and rivastigmine, which enhance cholinergic neurotransmission, and the NMDA receptor antagonist memantine, which modulates glutamatergic signaling. Emerging disease-modifying approaches target A\u03b2 clearance through monoclonal antibodies like aducanumab and lecanemab, while anti-tau therapies aim to prevent pathological tau propagation between neurons."
+    },
+    "solution_criteria": [
+      "Extracts major topics including disease mechanisms, molecular pathways, and treatment approaches",
+      "Returns output as a valid JSON array of strings",
+      "Identifies both broad topics and relevant subtopics from the biomedical content"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholary article into a JSON array of strings\n    ",
+    "scenario": "Testing with an excerpt from a biomedical research article featuring nested subtopics and technical jargon (molecular pathways, disease mechanisms, treatment protocols)"
+  },
+  {
+    "prompt_inputs": {
+      "content": "This study examines urban migration patterns among working-class families in post-industrial cities through a mixed-methods approach. Our quantitative analysis of census data from 2010-2020 reveals a 34% decline in manufacturing employment correlating with a 28% population decrease in rust belt metropolitan areas. Through eighteen months of ethnographic fieldwork in Detroit and Pittsburgh, we documented how deindustrialization reshapes kinship networks and community solidarity. Interview participants (n=67) reported maintaining transnational ties while experiencing localized economic precarity. The demographic shift shows aging populations (median age increased from 36 to 42) alongside selective out-migration of college-educated youth. Our regression models indicate housing affordability and social capital, measured through organizational membership density, significantly predict residential stability (p<0.01). These findings intersect with critical race theory frameworks, as African American and Latino communities disproportionately bear the costs of economic restructuring, experiencing unemployment rates 2.3 times higher than white residents."
+    },
+    "solution_criteria": [
+      "Identifies major thematic topics such as urban migration, deindustrialization, and demographic trends",
+      "Captures methodological approaches including quantitative analysis and ethnographic research",
+      "Returns output as a valid JSON array of strings"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholary article into a JSON array of strings\n    ",
+    "scenario": "Testing with a social science passage containing overlapping themes and mixed methodologies (quantitative analysis, ethnographic research, demographic trends)"
+  }
+]

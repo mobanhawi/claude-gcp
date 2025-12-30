@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Write a regular expression that validates AWS S3 bucket names according to AWS naming rules: 3-63 characters long, only lowercase letters, numbers, hyphens, and periods, must start and end with a letter or number, and cannot have consecutive periods or period-hyphen combinations.",
+    "format": "regex",
+    "solution_criteria": "Regex must match valid S3 bucket names (e.g., 'my-bucket-123', 'example.bucket') and reject invalid ones (e.g., 'My-Bucket', 'bucket..name', '-invalid', 'ab'). Should enforce all AWS S3 naming constraints."
+  },
+  {
+    "task": "Create a JSON object representing an AWS IAM policy that grants read-only access to a specific S3 bucket named 'company-reports' and all objects within it.",
+    "format": "json",
+    "solution_criteria": "JSON must be a valid IAM policy document with Version, Statement array, Effect set to 'Allow', appropriate Action(s) for read operations (s3:GetObject, s3:ListBucket), and Resource ARN(s) correctly formatted for the specified bucket."
+  },
+  {
+    "task": "Write a Python function that takes an AWS ARN string as input and extracts the service name from it. For example, given 'arn:aws:s3:::my-bucket/file.txt', it should return 's3'.",
+    "format": "python",
+    "solution_criteria": "Function must correctly parse standard AWS ARN format (arn:partition:service:region:account-id:resource) and return the service component. Should handle various ARN formats and return None or raise an exception for invalid ARNs."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "output": "# 1-Day Meal Plan for Athlete\n\n**Daily Targets:** 2,500 calories | 155g protein | 85g fat | 320g carbs\n\n---\n\n## **6:30 AM - Pre-Morning Swim** (240 cal)\n- Banana: 120g\n- White toast: 40g (1 slice)\n- Honey: 15g\n- Water: 500ml\n\n---\n\n## **8:30 AM - Post-Swim Breakfast** (680 cal)\n- Oatmeal: 90g dry\n- Whole milk: 250ml\n- Whey protein: 30g\n- Blueberries: 100g\n- Eggs: 2 large (100g)\n\n---\n\n## **11:30 AM - Mid-Morning Snack** (320 cal)\n- Greek yogurt: 200g\n- Honey: 20g\n- Granola (nut-free): 30g\n- Strawberries: 80g\n\n---\n\n## **1:30 PM - Lunch** (720 cal)\n- Grilled chicken breast: 180g\n- Quinoa: 90g dry weight\n- Spinach salad: 100g\n- Cherry tomatoes: 80g\n- Olive oil: 12g\n- Orange: 150g\n\n---\n\n## **4:00 PM - Pre-Evening Swim** (280 cal)\n- Rice cakes: 30g\n- Honey: 10g\n- Banana: 120g\n- Sports drink: 250ml\n\n---\n\n## **6:30 PM - Post-Swim Dinner** (740 cal)\n- Salmon fillet: 160g\n- Sweet potato: 220g\n- Asparagus: 150g\n- Brown rice: 60g dry weight\n- Olive oil: 10g\n\n---\n\n## **9:00 PM - Evening Snack** (220 cal)\n- Cottage cheese: 150g\n- Raspberries: 80g\n- Rice crackers: 20g\n\n---\n\n**Hydration:** 3-3.5L water daily, 500ml before each swim, electrolyte drink during intense sessions",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "170",
+        "weight": "62",
+        "goal": "maintain energy for twice-daily swim training",
+        "restrictions": "nut allergy"
+      },
+      "solution_criteria": [
+        "Includes breakfast, lunch, dinner, and snacks",
+        "Provides adequate fuel before both morning and evening training sessions",
+        "Contains no nuts or nut-based ingredients"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a teenage swimmer with nut allergies who trains twice daily and needs adequate fuel for both morning and evening sessions"
+    },
+    "score": 10,
+    "reasoning": "The solution fully satisfies all mandatory requirements by providing daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. It also meets all secondary criteria: includes breakfast, lunch, dinner, and snacks; provides adequate fuel before both training sessions (6:30 AM and 4:00 PM pre-swim meals); and contains no nuts or nut-based ingredients. The meal plan is well-structured, compact, and appropriately designed for an athlete with twice-daily swim training. The weaknesses identified are minor optimizations rather than deficiencies in meeting the stated criteria."
+  },
+  {
+    "output": "# 1-Day Meal Plan for Marathon Training Athlete\n\n**Daily Targets:** 2,800 calories | 140g protein | 85g fat | 420g carbs\n\n---\n\n## **5:30 AM - Pre-Run Fuel** (280 cal)\n- White toast: 60g (2 slices)\n- Honey: 20g\n- Banana: 100g\n- Water: 500ml\n\n---\n\n## **8:30 AM - Post-Run Breakfast** (750 cal)\n- Oatmeal: 100g dry\n- Whole milk: 250ml\n- Whey protein: 30g\n- Blueberries: 100g\n- Peanut butter: 25g\n- Orange juice: 200ml\n\n---\n\n## **11:30 AM - Mid-Morning Snack** (380 cal)\n- Greek yogurt: 200g\n- Granola: 50g\n- Banana: 120g\n- Honey: 15g\n\n---\n\n## **2:00 PM - Lunch** (780 cal)\n- Grilled chicken breast: 180g\n- Pasta: 120g dry weight\n- Marinara sauce: 100g\n- Parmesan cheese: 15g\n- Mixed salad: 100g\n- Olive oil: 10g\n\n---\n\n## **5:00 PM - Afternoon Snack** (320 cal)\n- Whole grain bread: 60g\n- Almond butter: 25g\n- Apple: 150g\n\n---\n\n## **7:30 PM - Dinner** (720 cal)\n- Salmon fillet: 160g\n- Brown rice: 100g dry weight\n- Roasted vegetables: 200g\n- Olive oil: 12g\n- Avocado: 50g\n\n---\n\n## **9:30 PM - Recovery Snack** (270 cal)\n- Cottage cheese: 150g\n- Whole grain crackers: 40g\n- Strawberries: 100g\n\n---\n\n**Hydration:** 3-3.5L water throughout the day, especially during and after morning run. Consider electrolyte drink during long runs >90 minutes.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "175",
+        "weight": "68",
+        "goal": "marathon training with morning long run",
+        "restrictions": "none"
+      },
+      "solution_criteria": [
+        "Includes high carbohydrate meals throughout the day",
+        "Contains pre-run meal/snack timed before morning training",
+        "Includes post-run recovery meal with carbs and protein"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a marathon runner who requires high carbohydrate intake and specific timing around morning training sessions"
+    },
+    "score": 10,
+    "reasoning": "The solution fully satisfies all mandatory requirements by providing daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. It also meets all secondary criteria: high carbohydrate meals throughout the day (420g carbs distributed across all meals), a pre-run meal timed appropriately before morning training (5:30 AM), and a post-run recovery meal with both carbs and protein (8:30 AM breakfast). The meal plan is compact, concise, well-structured, and specifically tailored to the athlete's marathon training with morning long run goal."
+  },
+  {
+    "output": "# 1-Day Meal Plan for Athlete\n\n**Daily Targets:** 2,200 calories | 185g protein | 70g fat | 180g carbs\n\n---\n\n## **7:00 AM - Breakfast** (520 cal)\n- Eggs (whole): 3 large (150g)\n- Egg whites: 100g\n- Oatmeal: 60g dry\n- Blueberries: 80g\n- Almonds: 15g\n\n---\n\n## **10:30 AM - Pre-Training Snack** (240 cal)\n- Rice cakes: 30g\n- Almond butter: 15g\n- Banana: 100g\n\n---\n\n## **1:00 PM - Post-Training Lunch** (650 cal)\n- Grilled chicken breast: 200g\n- Jasmine rice: 80g dry weight\n- Spinach: 100g\n- Bell peppers: 100g\n- Olive oil: 8g\n\n---\n\n## **4:00 PM - Snack** (280 cal)\n- Tuna in water: 120g (1 can)\n- Whole grain crackers: 30g\n- Cucumber: 100g\n- Apple: 120g\n\n---\n\n## **7:30 PM - Dinner** (620 cal)\n- Lean beef sirloin: 180g\n- Sweet potato: 150g\n- Asparagus: 150g\n- Broccoli: 100g\n- Olive oil: 10g\n\n---\n\n## **9:30 PM - Evening Snack** (190 cal)\n- Lactose-free protein shake: 35g powder\n- Strawberries: 100g\n- Unsweetened almond milk: 250ml\n\n---\n\n**Hydration:** 3-3.5L water throughout the day, especially during training\n\n**Notes:** High protein intake (185g = 2g/kg bodyweight) supports muscle retention during cut. Carbs strategically placed around training for performance while maintaining caloric deficit for fat loss.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "92",
+        "goal": "cutting phase while maintaining muscle mass",
+        "restrictions": "lactose intolerant"
+      },
+      "solution_criteria": [
+        "Total daily calories between 1800-2200",
+        "Protein intake at least 180g",
+        "Meal plan fits within one day"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a powerlifter in a cutting phase who needs high protein, moderate fat, and restricted calories while maintaining muscle mass"
+    },
+    "score": 7,
+    "reasoning": "The solution meets all three mandatory requirements by including daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. It also satisfies all secondary criteria: calories within 1800-2200 range, protein at least 180g, and fits within one day. However, there is a significant mathematical error where the individual meal calories (2,500) do not match the stated daily target (2,200). Despite this internal inconsistency, the stated total of 2,200 calories does meet the criteria requirements."
+  }
+]
