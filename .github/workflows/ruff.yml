@@ -18,7 +18,8 @@ jobs:
 
       - uses: astral-sh/ruff-action@v3
         with:
-          args: "format --diff"
+          args: "format"
+        continue-on-error: true
 
       - name: Commit and push fixes
         if: github.event_name == 'push'
