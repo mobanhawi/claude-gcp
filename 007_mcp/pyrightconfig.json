@@ -1,0 +1,18 @@
+{
+  "include": [
+    "core",
+    "*.py"
+  ],
+  "exclude": [
+    "**/__pycache__"
+  ],
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.10",
+      "extraPaths": ["."]
+    }
+  ]
+}
